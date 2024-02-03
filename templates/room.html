@@ -42,6 +42,7 @@ body {
   margin-right:0;
 }
 
+
 .time-right {
   float: right;
   color: #aaa;
@@ -56,7 +57,7 @@ body {
 </head>
 <body>
 
-<h2>{{room}} - Samxpro</h2>
+<h2>{{room}} - Samxchat</h2>
 
 <div id="display">
 
@@ -139,7 +140,7 @@ setInterval(function(){
 
 </body>
 
-<script type="text/javascript">
+ <script type="text/javascript">
   $(document).on('submit','#post-form',function(e){
     e.preventDefault();
 
@@ -157,7 +158,7 @@ setInterval(function(){
       }
     });
     document.getElementById('message').value = ''
-  });
-</script>
+  }); 
+</script> 
 
-</html>
+</html> 

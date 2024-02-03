@@ -80,7 +80,7 @@ DATABASES = {
         # 'NAME' : BASE_DIR/'db.sqlite3',
         'NAME': 'railway',
         'USER' : 'postgres',
-        'PASSWORD' : 'pEKaynfMAuY2EKKkoeQk',
+        'PASSWORD' : 'pEKa                                 ynfMAuY2EKKkoeQk',
         'HOST': 'containers-us-west-187.railway.app',
         'PORT' : '7906',
     }
